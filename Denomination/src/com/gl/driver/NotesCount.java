@@ -4,13 +4,7 @@ public class NotesCount {
 	public void notesCountImplementation(int notes[], int amount) {
 		
 		int[] noteCounter = new int[notes.length];
-		// notes = 10, 52, 89, 1
-		//notes = 89, 52, 10, 1 sorting in decreasing order
-		//900
-		//notes 800/89 = 10 89:10
-		//900-890=10
-		//10/10 = 1
-		//0
+		
 		
 		try {
 			for(int i =0; i < notes.length; i++) {
